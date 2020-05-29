@@ -4,7 +4,7 @@
 In this project, we will be using Selenium to automate downloading of CSV files from a website and uploading of files to a OneDrive folder. We will create this in a Docker image and deploy it in Azure Functions.
 
 ## Project Files
-- Scraper/__init__.py: Python files that contais the code that scrapes Tealeaf website and uploads the file to OneDrive. This is time-triggered.
+- Scraper/\_\_init\_\_.py: Python files that contais the code that scrapes Tealeaf website and uploads the file to OneDrive. This is time-triggered.
  Scraper/function.
  - function.json: Configuration file for Azure Functions, here we set the trigger to be every 5 minutes.
  - DockerFile: Contains the commands to create the custom Docker image
